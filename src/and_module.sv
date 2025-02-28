@@ -8,5 +8,5 @@ module and_module
         output logic y
     );
 
-    assign y = a + b;
+    assign y = a or b;
 endmodule: and_module
